@@ -30,3 +30,35 @@ C:\0.Suresh Task\Code\Downloader\chooseName\chooseName\bin\System.Web.WebPages.R
 C:\0.Suresh Task\Code\Downloader\chooseName\chooseName\obj\Debug\chooseName.csprojResolveAssemblyReference.cache
 C:\0.Suresh Task\Code\Downloader\chooseName\chooseName\obj\Debug\chooseName.dll
 C:\0.Suresh Task\Code\Downloader\chooseName\chooseName\obj\Debug\chooseName.pdb
+C:\Apps\choosename\chooseName\bin\chooseName.dll.config
+C:\Apps\choosename\chooseName\bin\chooseName.dll
+C:\Apps\choosename\chooseName\bin\chooseName.pdb
+C:\Apps\choosename\chooseName\bin\Antlr3.Runtime.dll
+C:\Apps\choosename\chooseName\bin\EntityFramework.dll
+C:\Apps\choosename\chooseName\bin\EntityFramework.SqlServer.dll
+C:\Apps\choosename\chooseName\bin\Microsoft.Web.Infrastructure.dll
+C:\Apps\choosename\chooseName\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Apps\choosename\chooseName\bin\Newtonsoft.Json.dll
+C:\Apps\choosename\chooseName\bin\System.Data.SQLite.dll
+C:\Apps\choosename\chooseName\bin\System.Data.SQLite.EF6.dll
+C:\Apps\choosename\chooseName\bin\System.Data.SQLite.Linq.dll
+C:\Apps\choosename\chooseName\bin\System.Web.Mvc.dll
+C:\Apps\choosename\chooseName\bin\System.Web.Optimization.dll
+C:\Apps\choosename\chooseName\bin\System.Web.Providers.dll
+C:\Apps\choosename\chooseName\bin\System.Web.Razor.dll
+C:\Apps\choosename\chooseName\bin\System.Web.WebPages.Deployment.dll
+C:\Apps\choosename\chooseName\bin\System.Web.WebPages.dll
+C:\Apps\choosename\chooseName\bin\System.Web.WebPages.Razor.dll
+C:\Apps\choosename\chooseName\bin\WebGrease.dll
+C:\Apps\choosename\chooseName\bin\EntityFramework.xml
+C:\Apps\choosename\chooseName\bin\EntityFramework.SqlServer.xml
+C:\Apps\choosename\chooseName\bin\System.Data.SQLite.xml
+C:\Apps\choosename\chooseName\bin\Newtonsoft.Json.xml
+C:\Apps\choosename\chooseName\bin\System.Web.Mvc.xml
+C:\Apps\choosename\chooseName\bin\System.Web.Razor.xml
+C:\Apps\choosename\chooseName\bin\System.Web.WebPages.xml
+C:\Apps\choosename\chooseName\bin\System.Web.WebPages.Deployment.xml
+C:\Apps\choosename\chooseName\bin\System.Web.WebPages.Razor.xml
+C:\Apps\choosename\chooseName\obj\Debug\chooseName.csprojResolveAssemblyReference.cache
+C:\Apps\choosename\chooseName\obj\Debug\chooseName.dll
+C:\Apps\choosename\chooseName\obj\Debug\chooseName.pdb

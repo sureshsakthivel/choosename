@@ -138,6 +138,16 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Code\DAL\UserNumeroMappingDAL.cs" />
+    <Compile Include="Code\DAL\ChosenNameDAL.cs" />
+    <Compile Include="Code\DAL\NumeroDAL.cs" />
+    <Compile Include="Code\DAL\UserDAL.cs" />
+    <Compile Include="Code\Model\Model.cs" />
+    <Compile Include="Code\Service\ChosenNameService.cs" />
+    <Compile Include="Code\Service\UserNumeroMappingService.cs" />
+    <Compile Include="Code\Service\NumeroService.cs" />
+    <Compile Include="Code\Service\UserService.cs" />
+    <Compile Include="Code\SqliteManager.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
