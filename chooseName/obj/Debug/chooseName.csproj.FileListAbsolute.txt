@@ -62,3 +62,6 @@ C:\Apps\choosename\chooseName\bin\System.Web.WebPages.Razor.xml
 C:\Apps\choosename\chooseName\obj\Debug\chooseName.csprojResolveAssemblyReference.cache
 C:\Apps\choosename\chooseName\obj\Debug\chooseName.dll
 C:\Apps\choosename\chooseName\obj\Debug\chooseName.pdb
+C:\Apps\choosename\chooseName\bin\bin\x64\SQLite.Interop.dll
+C:\Apps\choosename\chooseName\bin\bin\x86\SQLite.Interop.dll
+C:\Apps\choosename\chooseName\bin\Data\MyDatabase.sqlite

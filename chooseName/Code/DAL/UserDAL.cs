@@ -19,7 +19,7 @@ namespace chooseName.Code.DAL
             m_dbConnection.Open();
         }
     }
-    public class UserDAL : ConnectionDAL
+    public class UserDAL : SqliteManager
     {
         public void Insert(User user)
         {
@@ -36,6 +36,46 @@ namespace chooseName.Code.DAL
             {
                 throw;
             }
+        }
+
+
+        public List<User> Search(int userid=0)
+        {
+            try
+            {
+                string sql = "select * from user";
+                if (userid > 0)
+                    sql += " where id=" + userid;
+                connectToDatabase();
+                SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
+                SQLiteDataReader reader = command.ExecuteReader();
+                List<User> users = GetList(reader);
+                reader.Close();
+                return users;
+            }
+            catch (SQLiteException ex)
+            {
+                throw;
+
+            }
+
+        }
+
+        private List<User> GetList(SQLiteDataReader reader)
+        {
+            List<User> names = new List<User>();
+            while (reader.Read())
+            {
+                names.Add(new User(
+                    Convert.ToInt32(reader["Id"]),
+                   Convert.ToString(reader["name"]),
+                    Convert.ToString(reader["emailId"]),
+                        Convert.ToString(reader["password"]),
+                            Convert.ToBoolean(reader["status"]),
+                    Convert.ToString(reader["activationcode"])));
+            }
+            return names;
+
         }
     }
 }
