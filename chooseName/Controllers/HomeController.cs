@@ -27,9 +27,9 @@ namespace chooseName.Controllers
             string patt = XmlUtility.ToXML<List<NumerologyPattern>>(patterns);
 
 
-            string xml = System.IO.File.ReadAllText(@"C:\Apps\getme.xml");
+            //string xml = System.IO.File.ReadAllText(@"C:\Apps\getme.xml");
 
-            List<NumerologyPattern> getpat = XmlUtility.FromXML<List<NumerologyPattern>>(xml);
+            //List<NumerologyPattern> getpat = XmlUtility.FromXML<List<NumerologyPattern>>(xml);
             SqliteManager manager = new SqliteManager();
             //public Program()
             //{
