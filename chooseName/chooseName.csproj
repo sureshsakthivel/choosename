@@ -146,6 +146,7 @@
     <Compile Include="Code\Service\NumeroService.cs" />
     <Compile Include="Code\Service\UserService.cs" />
     <Compile Include="Code\SqliteManager.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
